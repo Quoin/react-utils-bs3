@@ -1,0 +1,13 @@
+{
+  "root": true,
+  "parserOptions": {
+    "ecmaVersion": 2018
+  },
+  "extends": [
+    "@quoin/eslint-config-quoin",
+    "eslint:recommended"
+  ],
+  "plugins": [
+    "standard"
+  ]
+}

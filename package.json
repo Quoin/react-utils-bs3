@@ -1,0 +1,54 @@
+{
+  "name": "@quoin/react-utils-bs3",
+  "version": "1.0.0",
+  "description": "Adding displayName to react-bootstrap components",
+  "main": "dist/index.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "prebabel": "npm run clean",
+    "babel": "babel --out-dir=dist src",
+    "eslint": "eslint --fix src/*",
+    "prepack": "npm run eslint && npm run babel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Quoin/react-utils-bs3.git"
+  },
+  "keywords": [
+    "react",
+    "bootstrap",
+    "3",
+    "displayName"
+  ],
+  "author": {
+    "name": "Hữu Ðà Trần",
+    "email": "huuda.tran@quoininc.com",
+    "url": "https://www.quoininc.com/staff/huu-da-tran/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Quoin/react-utils-bs3/issues"
+  },
+  "homepage": "https://github.com/Quoin/react-utils-bs3#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@quoin/eslint-config-quoin": "^0.3.3",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-html": "^6.0.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-json": "^2.0.1",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "react": "^16.12.0",
+    "react-bootstrap": "^0.32.4",
+    "react-dom": "^16.12.0",
+    "rimraf": "^3.0.0"
+  },
+  "peerDependencies": {
+    "react-bootstrap": "^0.32.4"
+  }
+}
