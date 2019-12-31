@@ -4,7 +4,7 @@
   "description": "Adding displayName to react-bootstrap components",
   "main": "dist/index.js",
   "scripts": {
-    "clean": "rimraf dist",
+    "clean": "rimraf dist quoin-react-utils-*.tgz",
     "prebabel": "npm run clean",
     "babel": "babel --out-dir=dist src",
     "eslint": "eslint --fix src/*",
